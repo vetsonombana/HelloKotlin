@@ -1,8 +1,13 @@
-package com.example.hellokotlin
+package com.example.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.fragment.CartFragment
+import com.example.fragment.FavoritesFragment
+import com.example.fragment.ProductsFragment
+import com.example.fragment.R
+import com.example.fragment.SearchFragment
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 

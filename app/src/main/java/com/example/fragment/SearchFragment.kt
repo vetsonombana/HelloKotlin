@@ -1,4 +1,4 @@
-package com.example.hellokotlin
+package com.example.fragment
 
 import adapter.ProductAdapter
 import android.os.Bundle

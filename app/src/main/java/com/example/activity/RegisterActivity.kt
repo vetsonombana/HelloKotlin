@@ -4,9 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.hellokotlin.databinding.ActivityRegisterBinding
+import com.example.fragment.databinding.ActivityRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.example.hellokotlin.MainActivity
 
 class RegisterActivity : AppCompatActivity(){
     private lateinit var binding: ActivityRegisterBinding

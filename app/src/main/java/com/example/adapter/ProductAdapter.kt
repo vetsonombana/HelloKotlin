@@ -8,8 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.hellokotlin.FavoritesManager
-import com.example.hellokotlin.R
+import com.example.manager.FavoritesManager
+import com.example.fragment.R
 import model.Product
 
 class ProductAdapter(private val products: List<Product>, private val onItemClick : (Product) -> Unit, private val onFavoriteClick: (Product) -> Unit) :

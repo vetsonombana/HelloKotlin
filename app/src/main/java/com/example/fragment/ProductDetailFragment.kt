@@ -1,4 +1,4 @@
-package com.example.hellokotlin
+package com.example.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

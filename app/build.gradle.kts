@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.hellokotlin"
+    namespace = "com.example.fragment"
     compileSdk = 35
 
     defaultConfig {

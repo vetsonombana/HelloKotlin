@@ -1,4 +1,4 @@
-package com.example.hellokotlin
+package com.example.fragment
 
 import adapter.ProductAdapter
 import android.os.Bundle
@@ -9,7 +9,6 @@ import android.widget.ProgressBar
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import okhttp3.OkHttpClient
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
