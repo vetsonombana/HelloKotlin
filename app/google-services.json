@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "518492950574",
+    "project_id": "hellokotlin-aac25",
+    "storage_bucket": "hellokotlin-aac25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518492950574:android:a0e9627509b0af199a8fbf",
+        "android_client_info": {
+          "package_name": "com.example.hellokotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq3j4p9aDm4rCYoOkU8XIxVIjVP7a8Ss4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
