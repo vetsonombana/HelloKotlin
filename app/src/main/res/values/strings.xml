@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">HelloKotlin</string>
     <string name="product_image">Image du produit</string>
+    <string name="default_web_client_id">518492950574-v12v3j7qv8ek928ifu0qnci7qa2ck2n2.apps.googleusercontent.com</string>
 </resources>

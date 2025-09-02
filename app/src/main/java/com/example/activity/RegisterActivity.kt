@@ -2,6 +2,7 @@ package com.example.activity
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.fragment.databinding.ActivityRegisterBinding
@@ -34,6 +35,10 @@ class RegisterActivity : AppCompatActivity(){
                 return@setOnClickListener
             }
 
+            // Afficher le loader et désactiver le bouton
+            binding.progressBar.visibility = View.VISIBLE
+            binding.registerButton.isEnabled = false
+
             registerUser(email, password)
         }
 
@@ -46,6 +51,10 @@ class RegisterActivity : AppCompatActivity(){
     private fun registerUser(email: String, password: String) {
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
+                // Masquer le loader et réactiver le bouton
+                binding.progressBar.visibility = View.GONE
+                binding.registerButton.isEnabled = true
+
                 if (task.isSuccessful) {
                     Toast.makeText(this, "Registration successful", Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this, MainActivity::class.java))
